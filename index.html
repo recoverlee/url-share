@@ -6,7 +6,17 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <title>2026 겨울 로드바이크 여행 | 가오슝 vs 치앙마이</title>
 <style>
-.source-links{margin-top:14px}.source-links a{text-decoration:underline}
+:root{--bg:#07111c;--card:#101d2b;--card2:#142437;--text:#eef5fb;--muted:#9db0c2;--line:#26394d;--accent:#55d6f5;--accent2:#ffd166;--green:#6ee7b7;--pink:#f0abfc}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(180deg,#06101a,#0b1622 50%,#07111c);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Noto Sans KR","Segoe UI",sans-serif;line-height:1.65}
+a{color:#8de8ff;text-decoration:none}.wrap{max-width:1160px;margin:auto;padding:0 18px}.hero{padding:34px 0 22px}.eyebrow{color:var(--accent);font-weight:800;letter-spacing:.08em;font-size:12px}h1{font-size:clamp(30px,5vw,52px);line-height:1.12;margin:8px 0 12px}.lead{color:var(--muted);font-size:17px;max-width:850px}
+.switch{position:sticky;top:0;z-index:20;background:rgba(6,16,26,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);padding:10px 0}.tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.tab{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:16px;padding:13px 16px;text-align:center;font-weight:800;cursor:pointer}.tab.active{background:var(--accent);color:#031019;border-color:var(--accent)}.tab small{display:block;font-weight:600;opacity:.75}
+.compare{margin:22px 0;display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:15px}.stat b{display:block;font-size:20px}.stat span{color:var(--muted);font-size:13px}
+section{padding:30px 0}h2{font-size:27px;margin:0 0 9px}h3{margin:0 0 7px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.card,.callout{background:linear-gradient(180deg,var(--card2),var(--card));border:1px solid var(--line);border-radius:20px;overflow:hidden}.callout{padding:18px}.day{font-size:12px;color:var(--accent);font-weight:900;letter-spacing:.08em}.muted{color:var(--muted)}.note{border-left:3px solid var(--accent2);padding:11px 14px;background:#111e2b;border-radius:8px;color:#d9e3ec;margin-top:14px}
+img.flight{width:100%;display:block;background:#06101a;max-height:720px;object-fit:contain}.photo{width:100%;height:210px;object-fit:cover;display:block}.photo.tall{height:260px}.caption{padding:9px 12px;color:var(--muted);font-size:12px}.pill{display:inline-block;padding:4px 9px;border-radius:999px;background:#20344a;color:#cfe2f0;font-size:12px;margin:3px 4px 0 0}.pill.easy{background:#123b35;color:#b8f5df}.pill.hard{background:#40202e;color:#ffd0df}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden}th,td{padding:11px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{color:#bcd0e0;background:#132337}.route{display:flex;gap:12px;align-items:flex-start;margin:12px 0}.num{width:30px;height:30px;border-radius:50%;background:var(--accent);color:#031019;display:grid;place-items:center;font-weight:900;flex:none}.route p{margin:0}.hidden{display:none!important}.routebox{border:1px solid var(--line);border-radius:17px;padding:15px;background:#0d1a28}.routebox h3{font-size:17px}.metric{display:flex;gap:7px;flex-wrap:wrap;margin:8px 0}.metric b{font-size:18px}.small{font-size:13px}.source{font-size:12px;color:var(--muted);margin-top:10px}.source a{color:#8de8ff}.check{list-style:none;padding:0;margin:8px 0}.check li{margin:6px 0}.check li:before{content:"✓";color:var(--green);font-weight:900;margin-right:7px}.warn li:before{content:"!";color:var(--accent2)}
+footer{padding:30px 0 60px;color:var(--muted);font-size:12px;border-top:1px solid var(--line)}
+@media(max-width:900px){.compare,.grid4{grid-template-columns:1fr 1fr}.grid3{grid-template-columns:1fr 1fr}}@media(max-width:600px){.wrap{padding:0 13px}.compare,.grid,.grid3,.grid4{grid-template-columns:1fr}.tabs{grid-template-columns:repeat(3,1fr);gap:5px}.tab{padding:10px 5px;font-size:12px}.photo{height:190px}h2{font-size:24px}}
 </style>
 </head>
 <body>
@@ -167,7 +177,7 @@
 <div class="source-links"><a href="https://www.fullon-hotels.com.tw/fullon-poshtels/kh/tw/" rel="noopener" target="_blank">Fullon Poshtel 공식 홈페이지 ↗</a></div>
 </section></div>
 <!-- CHIANG MAI -->
-<div class="" id="chiangmai">
+<div class="hidden" id="chiangmai">
 <section>
 <div class="day">OPTION B · THAILAND</div>
 <h2>🇹🇭 치앙마이 · 산악 라이딩을 여행의 중심으로</h2>
@@ -416,18 +426,22 @@
 <div class="callout"><h3>GPX</h3><ul class="check"><li>최종 숙소 확정 후 GPX 작성</li><li>포장도로 비율 확인</li><li>보급점·회차 지점·일몰 시간 반영</li></ul></div>
 </div>
 </section></div></div>
-<script>const tabs=document.querySelectorAll('.tab');
-const panels={
-  kaohsiung:document.getElementById('kaohsiung'),
-  chiangmai:document.getElementById('chiangmai'),
-  comparison:document.getElementById('comparison')
-};
-tabs.forEach(t=>t.addEventListener('click',()=>{
-  tabs.forEach(x=>x.classList.remove('active'));
-  t.classList.add('active');
-  Object.values(panels).forEach(p=>p.classList.add('hidden'));
-  panels[t.dataset.target].classList.remove('hidden');
-  window.scrollTo({top:0,behavior:'smooth'});
-}));</script>
+<script>
+(function(){
+  var tabs=document.querySelectorAll('.tab');
+  var panels={
+    kaohsiung:document.getElementById('kaohsiung'),
+    chiangmai:document.getElementById('chiangmai'),
+    comparison:document.getElementById('comparison')
+  };
+  function show(name){
+    Object.keys(panels).forEach(function(k){ if(panels[k]) panels[k].classList.toggle('hidden',k!==name); });
+    tabs.forEach(function(t){ t.classList.toggle('active',t.getAttribute('data-target')===name); });
+    window.scrollTo(0,0);
+  }
+  tabs.forEach(function(t){ t.addEventListener('click',function(){ show(t.getAttribute('data-target')); }); });
+  show('kaohsiung');
+})();
+</script>
 </body>
 </html>
